@@ -12,5 +12,9 @@ body{
     justify-content: center;
     align-items: center;
     border: 5px solid greenyellow;
-    background:red;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
 }
