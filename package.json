@@ -2,5 +2,23 @@
   "dependencies": {
     "emmet": "^2.3.5",
     "nodemon": "^2.0.15"
-  }
+  },
+  "name": "basic_website",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KukuriBaagh/basicwebLayout.git"
+  },
+  "author": "\"kukuribaagh\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KukuriBaagh/basicwebLayout/issues"
+  },
+  "homepage": "https://github.com/KukuriBaagh/basicwebLayout#readme",
+  "description": ""
 }
