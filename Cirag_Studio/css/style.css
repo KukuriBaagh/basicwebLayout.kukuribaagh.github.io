@@ -12,11 +12,7 @@ universal Element Selector
 body{
   width: 100vw;
   height: 100vh;
-  background-image: linear-gradient(
-    to 120deg,
-    rgb(240, 210, 225),
-    rgb(241, 166, 204)
-  );
+  background-color: darkslategray;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -25,6 +21,8 @@ body{
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 0.7rem;
+  box-shadow: 1px 1px 3px #fff,
+              5px 5px 10px black;
 }
 
 /**************
@@ -34,27 +32,30 @@ Navigation Bar Styling
 header{
     width: 100vw;
     height: auto;
+    box-shadow: 1px 1px 3px #fff,
+              5px 5px 10px black;
 }
 
 h2{
-    width: 100%;
-    height: 100px;
+    width: 100vw;
+    height: 5rem;
     text-align: center;
     margin:50px 20px;
     padding: 40px;
-    font-size: 3.4rem;
-    background-color: rgb(248, 205, 205);
+    font-size: 2.4rem;
     color: #87bdec;
+    box-shadow: 1px 1px 3px #fff,
+              5px 5px 10px black;
 }
 
 .navBar {
-  
   width: auto;
   height: auto;
-
-  background-color: rgb(196, 189, 240);
+  background-color:#eee;
   font-size: 1.9rem;
   font-weight: 500;
+  box-shadow: 1px 1px 3px #fff,
+              5px 5px 10px black;
 }
 
 .navBar ul {
@@ -80,14 +81,18 @@ li a {
   margin-bottom: 17px;
   background-color: #7579f2;
   color: rgb(23, 39, 53);
+  flex-grow: 1;
+  box-shadow: 1px 1px 3px #fff,
+              5px 5px 10px black;
 }
 
-main .introList {
+.intro .introList {
   list-style: none;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  
 }
 
 .introHeading{
