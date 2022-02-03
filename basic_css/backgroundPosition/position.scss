@@ -1,0 +1,16 @@
+.bg-image {
+  outline: 2px solid darkred;
+  //   background-size: 100% 100%;
+  padding: 20em;
+  background-image: url("../../../js_developer/ES6_Basics/images/Dragon.jpg"),
+  url("./../../../js_developer/ES6_Basics/images/8085Diagram.png");
+  background-repeat: no-repeat,no-repeat;
+  color: darkred;
+  //   background-position: 50% 50%; /*background-popsition: (X-axis)px (Y-axis)px*/
+  // background-position: center center;
+//   background-position: top 20px right 50px;
+// background-position: 120%; to overflow the bg image
+
+background-position: left -10% , top left;
+background-size: auto, 10%;
+}

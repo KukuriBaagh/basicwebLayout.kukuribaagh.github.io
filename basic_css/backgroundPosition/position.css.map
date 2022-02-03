@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,SAAS,CAAC;EACR,OAAO,EAAE,iBAAiB;EAE1B,OAAO,EAAE,IAAI;EACb,gBAAgB,EAAE,yDAAyD,EAC3E,gEAAgE;EAChE,iBAAiB,EAAE,mBAAmB;EACtC,KAAK,EAAE,OAAO;EAMhB,mBAAmB,EAAE,oBAAoB;EACzC,eAAe,EAAE,SAAS;CACzB",
+    "sources": [
+        "position.scss"
+    ],
+    "names": [],
+    "file": "position.css"
+}

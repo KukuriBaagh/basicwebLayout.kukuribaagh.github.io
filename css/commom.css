@@ -32,6 +32,7 @@ body {
     width: 90vw;
     height: 70vh;
     background-color: aquamarine;
+    box-shadow: 1px 1px 3px rgba(1, 1, 1, 0.2), 3px 3px 7px rgba(1, 1, 1, 1);
 }
 
 /*   On Hover Website Name Heading    */
@@ -41,6 +42,7 @@ body {
   background-color: orange;
   width: 100vw;
   height: 80vh;
+  box-shadow: 1px 1px 3px rgba(1, 1, 1, 0.2), 3px 3px 7px rgba(1, 1, 1, 1);
 
 }
 
@@ -49,7 +51,17 @@ body {
   width: 70vw;
   height: 50vh;
   background-color: rgb(240, 121, 240);
+  box-shadow: 1px 1px 3px rgba(1, 1, 1, 0.2), 3px 3px 7px rgba(1, 1, 1, 1);
 }
+
+
+/***************
+    anchor Tags are given Id's so for Convinience :
+    1. Home Anchor
+    2. About Anchor
+    3. Service Anchor
+    4. Contact Anchor
+***************/
 
 #homeAnchor{
     width:auto;
@@ -61,6 +73,7 @@ body {
     margin:10px;
     color: rgb(0, 0, 0);
     border: 1px solid black;
+    box-shadow: 1px 1px 3px rgba(1, 1, 1, 0.2), 3px 3px 7px rgba(1, 1, 1, 1);
 }
 
 #homeAnchor::before {
@@ -68,6 +81,15 @@ body {
     width: 100%;
     height: 100%;
     background-color: blue;
+    position: relative;
+    box-shadow: 1px 1px 3px rgba(1, 1, 1, 0.2), 3px 3px 7px rgba(1, 1, 1, 1);
+
+}
+#homeAnchor::before :hover{
+    content: "Before";
+    width: 100%;
+    height: 100%;
+    background-color: rgb(49, 202, 82);
     position: relative;
 
 }
@@ -78,4 +100,9 @@ body {
     height: 100%;
     background-color: orange;
     position: relative;
+    box-shadow: 1px 1px 3px rgba(1, 1, 1, 0.2), 3px 3px 7px rgba(1, 1, 1, 1);
+}
+
+#aboutAnchor{
+
 }
