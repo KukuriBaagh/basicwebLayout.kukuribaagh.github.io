@@ -1,0 +1,55 @@
+*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		font-family: 'Ubuntu', sans-serif;
+}
+
+/* **""""""""""""""BODY """"""""""""""""""*/
+
+body{
+		background-color: #ff80f1;
+		font-family: 'David Libre', serif;
+		color:#e3ff2a;
+		font-size: 24px;
+		}
+		
+		
+	h1{
+			color: lime;
+	}
+
+/* **""""""""""""""BODY """"""""""""""""""*/
+
+.navbar{
+		background-color: hsl(120%,70%,50%);
+		position: relative;
+		width: 100%;
+		height: 50px;
+		border: 2px solid black;
+}
+
+.navbar ul{
+  width: 100%;
+  height: 50px;
+		display: inline-flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		overflow: auto;
+}
+
+
+.navbar li{
+  width:25%;
+  height: 30px;
+		text-transform: capitalize;
+		color: white;
+		box-sizing: border-box;
+		list-style: none;
+		border: 2px solid cyan;
+		
+}
+
+.navbar i{
+  
+}
