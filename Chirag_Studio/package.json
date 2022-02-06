@@ -1,0 +1,15 @@
+{
+  "name": "chirag_studio",
+  "version": "1.0.0",
+  "description": "e_com",
+  "main": "index.js",
+  "scripts": {
+    "test": "chirag"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\"KukuriBaagh@github.com\""
+  },
+  "author": "\"Amit Kumar Arya\"",
+  "license": "ISC"
+}
